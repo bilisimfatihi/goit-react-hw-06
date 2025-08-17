@@ -1,0 +1,26 @@
+.contact {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 5px;
+    padding: 5px 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+.contact span {
+    width: 50%;
+}
+
+.button {
+    background-color: #f44336;
+    color: white;
+    border: none;
+    padding: 3px 8px;
+    cursor: pointer;
+    transition: 0.2s;
+}
+
+.button:hover {
+    background-color: #d32f2f;
+}
